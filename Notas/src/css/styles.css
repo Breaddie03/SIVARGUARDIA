@@ -1,0 +1,283 @@
+html 
+{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+  
+  *,
+  *:before,
+  *:after 
+  {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+  }
+
+body
+{
+    font-size: 1.6rem;
+    font-family: "Montserrat", sans-serif;
+    
+}
+
+h2{
+    font-size: 1.8rem;
+}
+
+h3
+{
+    font-weight: 400;
+}
+
+/* --------------- HEADER --------------- */
+
+.header
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #7ed957;
+    color: #FFFFFF;
+}
+
+.header__title
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #7ed957;
+    color: #FFFFFF;
+    width: 100%;
+}
+.nav__navbar
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    list-style: none;
+}
+
+.navbar__item
+{
+    color: #FFFFFF;
+    padding: 1rem 3rem;
+}
+
+.navbar__item:hover
+{
+    background-color: #d7ffc6;
+    color: #5cba33;
+    transition: 0.5s;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.navbar__item:active
+{
+    background-color: #5cba33;
+    color: #FFFFFF;
+    transition: 0.5s;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+
+
+
+
+/* --------------- NOTA ---------------*/
+
+.nota__grid
+{
+    display: flex;
+    gap: 2rem;
+    width: 95%;
+    margin: 3rem;
+}
+
+
+.grid__inicio
+{
+    display: flex;
+    flex-direction: column;
+    width: 39%;
+    text-align: justify;
+}
+
+.nota__title
+{
+    text-align: justify;
+}
+
+.nota__subtitle
+{
+    text-align: justify;
+}
+
+.nota__img
+{
+    display: block;
+    max-width: 100%;
+    margin: 0.5rem 0;
+    max-height: 100%;
+}
+
+.img__container
+{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+}
+
+.img__credits
+{
+    width: 100%;
+    text-align: right;
+    font-style: italic;
+    color: #0000007e;
+}
+
+.cine__text
+{
+    display: flex;
+
+}
+.grid__centro
+{
+    display: flex;
+    flex-direction: column;
+    width: 39%;
+    text-align: justify;
+}
+
+.grid__comments
+{
+    width: 22%;
+}
+
+.comments
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    box-shadow: 5px 5px 10px -5px rgba(0,0,0,0.61);
+    border: 0.1px solid #00000027;
+}
+
+.comment
+{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 1rem 0;
+    background-color: #ffffff27;
+    color: #000000;
+    border-radius: 0.5rem;
+    box-shadow: 5px 5px 10px -5px rgba(0,0,0,0.61);
+    border: 0.1px solid #00000027;
+}
+
+.comment__username
+{
+    font-size: 1.4rem;
+}
+.comments__title
+{
+    color: #000000;
+    text-align: center;
+}
+
+.add__comment
+{
+    height: 3rem;
+    outline: none;
+    border: none;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 0.1px solid #00000027;
+    box-shadow: 5px 5px 10px -5px rgba(0,0,0,0.61);
+    margin: 1.5rem 0;
+}
+
+.add__btn
+{
+    border: none;
+    outline: none;
+    height: 3rem;
+    width: 8rem; 
+    border-radius: 1rem;
+    background-color:#7ed957;
+    box-shadow: 5px 5px 10px -5px rgba(0,0,0,0.61);
+    color: #FFFFFF;
+}
+
+.add__btn:hover
+{
+    background-color: #d7ffc6;
+    color: #5cba33;
+    transition: 0.5s;
+}
+
+.add__btn:active
+{
+    background-color: #5cba33;
+    color: #FFFFFF;
+    transition: 0.5s;
+}
+
+.extras
+{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    box-shadow: 5px 5px 10px -5px rgba(0,0,0,0.61);
+    border: 0.1px solid #00000027;
+}
+
+.extra__notice
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+    border-radius: .5rem;
+    box-shadow: 5px 5px 10px -5px rgba(0,0,0,0.61);
+    border: 0.1px solid #00000027;
+    margin-top: 1rem;
+}
+
+.notice__title
+{
+    font-size: 1.4rem;
+}
+
+.notice__img
+{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 1rem;
+    object-fit: cover;
+}
+
+.img__base
+{
+    display: flex;
+    width: 5rem;
+    height: 5rem;
+    object-fit: fill;
+}
